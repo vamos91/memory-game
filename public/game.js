@@ -113,7 +113,7 @@ cards.forEach((card) => {
                     cardPlayedToCompare[1].firstElementChild.style.zIndex = -3
                 } else {
                     winCondition++
-                    if (winCondition === 2) {
+                    if (winCondition === 14) {
                         alert('Vous avez gagné !')
                         console.log(counter)
                         //Requête HTTP
@@ -127,12 +127,10 @@ cards.forEach((card) => {
                         })
                         .then(response => response.json())
                         .then((data) => {
+                            console.log('Enregistrement en base donnée : ok')
                             console.log(data)
-                        })
-                        
+                        })  
                         clearInterval(t)
-                        //initGame()
-                        //réinitialisartion du jeux
                     }
                 }
                 cardPlayedToCompare.splice(0, cardPlayedToCompare.length)
