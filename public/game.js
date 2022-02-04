@@ -117,7 +117,7 @@ cards.forEach((card) => {
                         alert('Vous avez gagné !')
                         console.log(counter)
                         //Requête HTTP
-                        fetch('http://localhost:3000/score/new', {
+                        fetch('https://memory-game-oclock.herokuapp.com/score/new', {
                             method: 'POST',
                             headers: {
                                 'Accept': 'application/json',
