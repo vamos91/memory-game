@@ -22,7 +22,7 @@ router.get('/', async (req, res) => {
                 score = parseInt(scores[index].timing);
                 //On parcours le tableau de score et si le score est plus petit que le premier élément...
                 if (score < plusPetit) {
-                    //on assigne ce score comme étént le plus petit.
+                    //...on assigne ce score comme étant le plus petit.
                     plusPetit = score
                 }
             }

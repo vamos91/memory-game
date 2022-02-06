@@ -4,7 +4,7 @@
 //*************************Nicolas ACARD********************************/
 //**********************************************************************/
 
-// Sélectionner aléatoirement 14 fruits parmi les 18 proposés et les sotcker dans un tableau.
+// Sélectionner aléatoirement 14 fruits parmi les 18 proposés et les stocker dans un tableau.
 // Répartir 14 paires de fruit aléatoirement, les stocker dans un autre tableau et les afficher dans la page HTML via le DOM.
 // Mettre un événement au click sur chaque carte permettant de voir le fruit.
 // Une fonction de comparaison de déclanchera au click de la deuxième carte.
@@ -139,6 +139,11 @@ const t = setInterval(() => {
     }
 }, 1000)
 
+//***************************************************************************************
+
+
+
+//***************************Comparaison de paire de carte*************************************
 
 const cardPlayedToCompare = []
 let winCondition = 0;
