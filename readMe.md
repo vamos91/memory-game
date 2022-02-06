@@ -4,7 +4,8 @@
 - En ligne : [ici](https://memory-game-oclock.herokuapp.com/)
 - En local : 
     1. Cloner le repo 
-    2. Taper dans le terminal ```npm start```
+    2. Taper dans le terminal `npm install`
+    2. ...puis `npm start`
     3. Aller à [http://localhost:3000](http://localhost:3000)
 
 
