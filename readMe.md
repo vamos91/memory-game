@@ -1,6 +1,6 @@
 # MEMORY GAME
 
-###### Pour accéder à l'application
+### Pour accéder à l'application
 - En ligne : [ici](https://memory-game-oclock.herokuapp.com/)
 - En local : 
     1. Cloner le repo 
