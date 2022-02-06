@@ -8,7 +8,7 @@
     3. Aller à [http://localhost:3000](http://localhost:3000)
 
 
-**note** : Lorsque le joueur séléctioone sa deuxième carte, il faut attendre deux secondes pour la validation de la paire (ou non).
+**note** : Lorsque le joueur séléctionne sa deuxième carte, il faut attendre deux secondes pour la validation de la paire (ou non).
 
 ##### L'application est hébergé sur la plateforme **Heroku**.
 Après avoir crée un compte, pour déployer une application, il suffit de:
